@@ -12,6 +12,11 @@ codesteller/rachetnet:22.02
 ```
 
 ## Create Dataset
+- Make training dataset
 ```
 python3 ./utils/dataset/create_coco_tfrecord.py --image_dir /dataset/coco2017/train2017 --object_annotations_file /dataset/coco2017/annotations/instances_train2017.json --output_file_prefix /dataset/coco2017/tfrecords/train
+```
+- Make validation dataset
+```
+python3 ./utils/dataset/create_coco_tfrecord.py --image_dir /dataset/coco2017/val2017 --object_annotations_file /dataset/coco2017/annotations/instances_val2017.json --output_file_prefix /dataset/coco2017/tfrecords/valid
 ```
