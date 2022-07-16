@@ -3,4 +3,4 @@ docker run --gpus '"device=3"' -it --rm --shm-size=1g --ulimit memlock=-1 \
 -v $(pwd):/workspace/myspace \
 -v /media/d3a/01_Datasets/CV_Data/MSCoco/coco2017:/dataset/coco2017 \
 -w /workspace/myspace \
-codesteller/rachetnet
+codesteller/rachetnet:22.02
