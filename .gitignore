@@ -130,3 +130,8 @@ dmypy.json
 
 # Folders
 efficientdet
+.vscode
+
+*.ipynb_checkpoints
+*.png
+*.jpg
